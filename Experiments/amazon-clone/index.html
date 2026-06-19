@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">amazon</div>
+
+        <div class="search-box">
+            <input type="text" placeholder="Search products..." />
+            <button>Search</button>
+        </div>
+
+        <div class="cart">
+            🛒 Cart: <span id="cart-count">0</span>
+        </div>
+    </header>
+
+    <main class="products">
+
+        <div class="product-card">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.9wod7OijxKSGe9KkqYQs2QHaLk?pid=Api&P=0&h=180" alt="Headphones">
+            <h3>Wireless Headphones</h3>
+            <p class="price">₹1,999</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.Rm1EhVRgl-orrh87sYJK3AHaHa?pid=Api&P=0&h=180" alt="Smart Watch">
+            <h3>Smart Watch</h3>
+            <p class="price">₹2,499</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://b2c-contenthub.com/wp-content/uploads/2023/07/Acer_Aspire3.jpg?quality=50&strip=all" alt="Laptop">
+            <h3>Laptop</h3>
+            <p class="price">₹49,999</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://m.media-amazon.com/images/I/71R6fEX2LFL.jpg" alt="Bluetooth Speaker">
+            <h3>Bluetooth Speaker</h3>
+            <p class="price">₹1,299</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
